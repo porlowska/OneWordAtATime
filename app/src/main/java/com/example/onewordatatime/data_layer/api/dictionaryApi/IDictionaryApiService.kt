@@ -6,7 +6,6 @@ import retrofit2.Call
 import retrofit2.http.Path
 
 //This file defines an API service for fetching word definitions
-interface IDictionaryApiService {
     @GET("{word}")
     // This method returns a Call object with a generic type of List<String>,
     // which represents how the data looks like in the response.
